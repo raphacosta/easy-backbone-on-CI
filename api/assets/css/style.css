@@ -1,0 +1,110 @@
+/*@import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700);*/
+
+
+
+html {
+   margin: 0px;
+   height: 100%;
+   width: 100%;
+   /*background: #9dc4d5;*/
+}
+.logo {
+     background: url('../images/fd-logo.png') no-repeat;width:210px; height: 144px; text-align: center; margin-top: 45px;
+    } 
+h1 {
+     background: left top url('../images/flashdispatch-logo.png') no-repeat;width:446px; height: 63px; margin-left: 20px; display: block;
+    } 
+h2 {
+	font-family: 'Calibri'; color: #c00000;
+}
+.padded-heading {
+	padding: 0 25px 25px; 
+}
+
+.login-align-right {
+	text-align: right; padding: 25px; 
+}
+.label-right {
+  width:300px;text-align:right;
+}
+
+.main-bg {
+	background: #f2f2f2; text-align: center; padding: 25px;
+}
+.main-white {
+	text-align: center; padding: 25px;
+}
+.centered {
+	padding-left:120px; padding-right:120px
+}
+.red-border {
+	border: solid 1px #c00000; color: #c00000;
+}
+
+.red-button {
+	color: #ffe1e1;
+	background: #ffffff;
+}
+
+.btn-red {
+  color: #c00000;
+  background-color: #ffe1e1;
+  border-color: #ffe1e1;
+}
+
+.btn-red:hover,
+.btn-red:focus,
+.btn-red:active,
+.btn-red.active,
+.open .dropdown-toggle.btn-red {
+  color: #ffffff;
+  background-color: #c00000;
+  border-color: #c00000;
+}
+
+.btn-red:active,
+.btn-red.active,
+.open .dropdown-toggle.btn-red {
+  background-image: none;
+}
+
+.btn-red.disabled,
+.btn-red[disabled],
+fieldset[disabled] .btn-red,
+.btn-red.disabled:hover,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-red:hover,
+.btn-red.disabled:focus,
+.btn-danger[disabled]:focus,
+fieldset[disabled] .btn-red:focus,
+.btn-red.disabled:active,
+.btn-red[disabled]:active,
+fieldset[disabled] .btn-danger:active,
+.btn-red.disabled.active,
+.btn-red[disabled].active,
+fieldset[disabled] .btn-red.active {
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+
+.btn-normal .caret {
+  border-top-color: #000000;
+}
+
+
+
+.dropup .btn-normal .caret {
+  border-bottom-color: #000000;
+}
+label {
+  display: inline-block;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: normal;
+  color: #c00000;
+  font-size: 16px;
+}
+
+.left-aligned{
+	text-align:left;
+}

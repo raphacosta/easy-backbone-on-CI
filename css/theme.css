@@ -1,0 +1,48 @@
+/*
+# FLASHdispatch Styling
+# author: Hashtag Consulting
+*/
+
+/*
+# Global configuration
+*/
+html {
+  height:100% !important;
+}
+body {
+  min-height:100% !important;
+  text-align: left;
+}
+
+/*
+# Main Menu Template
+*/
+.main-menu-container {
+  display:inline-block;
+  height:100% !important;
+  min-width:200px;
+  vertical-align: top;
+}
+
+/*
+# Content Elements
+*/
+.page {
+  display: inline-block;
+  padding-right:25px;
+  text-align: left;
+  max-width:1000px;
+}
+
+/*
+# Footer Elements
+*/
+.footer {
+  padding-top:20px;
+  font-size:11px;
+  text-align: center;
+  line-height:120%;
+}
+
+
+

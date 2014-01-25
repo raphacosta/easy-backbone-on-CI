@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'handlebars', '-g' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose cache add [ 'handlebars', null ]
+5 verbose cache add name=undefined spec="handlebars" args=["handlebars",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'handlebars',
+6 verbose parsed url   path: 'handlebars',
+6 verbose parsed url   href: 'handlebars' }
+7 silly lockFile 9566e355-handlebars handlebars
+8 verbose lock handlebars /Users/rcosta/.npm/9566e355-handlebars.lock
+9 silly lockFile 9566e355-handlebars handlebars
+10 verbose addNamed [ 'handlebars', '' ]
+11 verbose addNamed [ null, '*' ]
+12 silly lockFile 0ab5732f-handlebars handlebars@
+13 verbose lock handlebars@ /Users/rcosta/.npm/0ab5732f-handlebars.lock
+14 silly lockFile 0ab5732f-handlebars handlebars@
+15 error Error: EACCES, open '/Users/rcosta/.npm/0ab5732f-handlebars.lock'
+15 error  { [Error: EACCES, open '/Users/rcosta/.npm/0ab5732f-handlebars.lock']
+15 error   errno: 3,
+15 error   code: 'EACCES',
+15 error   path: '/Users/rcosta/.npm/0ab5732f-handlebars.lock' }
+16 error Please try running this command again as root/Administrator.
+17 error System Darwin 13.0.0
+18 error command "node" "/usr/local/bin/npm" "install" "handlebars" "-g"
+19 error cwd /Library/WebServer/Documents/flashd
+20 error node -v v0.10.22
+21 error npm -v 1.3.14
+22 error path /Users/rcosta/.npm/0ab5732f-handlebars.lock
+23 error code EACCES
+24 error errno 3
+25 error stack Error: EACCES, open '/Users/rcosta/.npm/0ab5732f-handlebars.lock'
+26 verbose exit [ 3, true ]
