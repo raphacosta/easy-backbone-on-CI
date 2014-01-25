@@ -115,7 +115,5 @@ If you got stuck and you need help, give me a shout and I will reply ASAP.
 
 
 *   [@raphacosta](http://twitter.com/raphacosta) on twitter
-*   
 *   Github - https://github.com/raphacosta
-*   
 *   raphael@hashtagit.co.za
