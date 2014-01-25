@@ -30,10 +30,10 @@ $config['base_url']	= '';
 /*
 * ENVIRONMENT: PROD
 */
-$config['base_API_Path'] = 'http://154.0.160.77:8080/FlashDispatch-war/v1.0/';
+$config['base_API_Path'] = 'http://yourAPIPath/';
 /*
 * ENVIRONMENT: DEV
-* $config['base_API_Path'] = 'http://localhost:8080/FlashDispatch-war/v1.0/';
+* $config['base_API_Path'] = 'http://yourDevAPIPath/';
 */
 
 /*
