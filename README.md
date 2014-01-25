@@ -19,18 +19,24 @@ I'm sure most people understand the benefits of 'modularized' code. But due to t
 **AMD and Require.js**
 Asynchronous Module Definitions designed to load modular code asynchronously in the browser and server. It is actually a fork of the Common.js specification. Many script loaders have built their implementations around AMD, seeing it as the future of modular Javascript development.
 
-Backboneboilerplate.com supports Require.js the default AMD loader. It has a vibrant open-source ecology.
 
 ## Libraries in Use
 We were building this for a project utilising the following:
 
 RequireJS
+
 Backbone
+
 Bootstrap
+
 Handlebars
+
 jQuery
+
 Lodash
+
 Underscore
+
 Node
 
 ## Get Started
@@ -63,16 +69,25 @@ app/api/application/controllers/ => your Restfull API will be consumed from here
 
 **Backbone:**
 Your backbone stack will be composed by the following folder on root:
+
 app/js/
+
 app/js/colletions
+
 app/js/libs
+
 app/js/models
+
 app/js/views
+
 
 **Common Assets:**
 app/css
+
 app/images
+
 app/templates
+
 
 **Node:**
 app/node_modules/
@@ -81,7 +96,9 @@ app/node_modules/
 The boilerplate project contains a `build` folder and is designed to be a one line execution optimization process.
 
 Make sure you have node.js installed
+
 Execute ./build.sh from inside the build folder
+
 Find your ready to go application in `/build/output`
 
 The build process uses the require.js optimizer called r.js, it traverses through the dependency list and compiles and minifies them intelligently.
@@ -98,5 +115,7 @@ If you got stuck and you need help, give me a shout and I will reply ASAP.
 
 
 *   [@raphacosta](http://twitter.com/raphacosta) on twitter
+*   
 *   Github - https://github.com/raphacosta
+*   
 *   raphael@hashtagit.co.za
